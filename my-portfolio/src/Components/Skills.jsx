@@ -9,7 +9,7 @@ const Skills = () => {
         
       <div className="flex flex-col items-center mt-30 ">
         <div className="flex space-x-5">
-        <div className="w-[2px] h-auto bg-gray-600 "></div>
+        <div className="w-0.5 h-auto bg-gray-600 "></div>
           <Cards
             img="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
             alt="HTML"
@@ -32,7 +32,7 @@ const Skills = () => {
           />
         </div>
         <div className="flex space-x-5">
-        <div className="w-[2px] h-auto bg-gray-600 "></div>
+        <div className="w-0.5 h-auto bg-gray-600 "></div>
           <Cards
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
             alt="MongoDB"

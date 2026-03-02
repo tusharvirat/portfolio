@@ -1,4 +1,3 @@
-import React from "react";
 
 const Project = () => {
   return (
@@ -8,7 +7,7 @@ const Project = () => {
           PROJECTS
         </h1>
       </div>
-      <div className="w-[2px] h-auto bg-gray-600 "></div>
+      <div className="w-0.5 h-auto bg-gray-600 "></div>
       <div className="ml-10 mr-10 flex flex-col gap-20 items-center justify-center">
         <div >
           <div className="flex flex-row justify-between pr-8">

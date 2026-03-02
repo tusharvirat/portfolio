@@ -19,7 +19,7 @@ const Aboutme = () => {
           PROJECTS DEPLOYED: 02
         </h1>
       </div>
-      <span className="flex justify-center justify-evenly">
+      <span className="flex  justify-evenly">
         <button className="text-[#000000] font-bold bg-purple-600 py-2 px-4 sm:py-4 sm:px-6 text-sm sm:text-l rounded-4xl h-15 w-40">
           <a href="#contact">CON TACT ME</a>
         </button>
