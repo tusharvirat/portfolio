@@ -4,12 +4,12 @@ function Hero() {
   return (
     <div className="bg-black w-screen h-screen overflow-x-hidden">
       <div className="flex flex-col mx-auto w-fit gap-16 px-4 sm:px-0">
-        <h1 className="text-[#C0C0C0] font-black text-4xl sm:text-6xl md:text-9xl tracking-wide font-sans text-center">
+        <h1 className="text-[#676767] font-black text-4xl sm:text-6xl md:text-9xl tracking-wide font-sans text-center">
           HI, I'M TUSHAR
         </h1>
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-0">
           <span className="w-full md:w-auto">
-            <p className="text-[#C0C0C0] font-bold text-center leading-7 text-sm sm:text-lg md:text-xl uppercase font-mono">
+            <p className="text-[#676767] font-bold text-center leading-7 text-sm sm:text-lg md:text-xl uppercase font-mono">
               I design and develop responsive web applications <br />
               using modern technologies while continuously <br />
               improving my problem-solving skills.
@@ -23,7 +23,7 @@ function Hero() {
           />
 
           <span className="w-full md:w-auto flex justify-center">
-            <button className="text-[#C0C0C0] bg-red-800 font-bold text-sm sm:text-base rounded-4xl py-2 px-4">
+            <button className="text-[#676767] bg-red-800 font-bold text-sm sm:text-base rounded-4xl py-2 px-4">
               RESUME
             </button>
           </span>

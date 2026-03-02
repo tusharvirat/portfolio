@@ -1,19 +1,14 @@
 import Cards from "./Cards";
-import { Separator } from '@radix-ui/react-separator';
 
 const Skills = () => {
-  console.log('Skills component rendered');
   return (
-    <div className="flex flex-col md:flex-row items-center">
-      <div className="flex flex-col justify-center items-center md:items-start">
-        <h1 className="font-bold text-3xl sm:text-5xl md:text-6xl -rotate-90 text-[#9929EA]">
-          SKILLS
-        </h1>
+    <div className="flex flex-row ">
+      <div className=" flex flex-col justify-center ">
+        <h1 className="font-bold text-5xl -rotate-90 text-[#9929EA] ">SKILLS</h1>
       </div>
-      {/* show separator only on medium+ */}
-      <Separator orientation="vertical" className="mx-4 hidden md:block" />
-      <div className="flex flex-col items-center mt-8 md:mt-0 px-4">
-        <div className="flex flex-wrap justify-center gap-5">
+        <div className="w-[2px] bg-gray-600 h-auto"></div>
+      <div className="flex flex-col items-center mt-30 ">
+        <div className="flex space-x-5">
           <Cards
             img="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
             alt="HTML"
@@ -34,6 +29,8 @@ const Skills = () => {
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
             alt="Node.js"
           />
+        </div>
+        <div className="flex space-x-5">
           <Cards
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
             alt="MongoDB"
