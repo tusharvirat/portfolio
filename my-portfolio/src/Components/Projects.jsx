@@ -2,14 +2,14 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="flex flex-row  mt-50">
+    <div className="flex flex-row  mt-50 w-screen h-screen scroll-mt-20" id="projects">
       <div className="flex flex-col justify-center ">
         <h1 className="font-bold text-5xl -rotate-90 text-[#676767] ">
           PROJECTS
         </h1>
       </div>
       <div className="w-[2px] h-auto bg-gray-600 "></div>
-      <div className="ml-10 mr-10 flex flex-col gap-20">
+      <div className="ml-10 mr-10 flex flex-col gap-20 items-center justify-center">
         <div >
           <div className="flex flex-row justify-between pr-8">
             <h1 className="text-[#676767] font-bold text-3xl ">Stopwatch</h1>

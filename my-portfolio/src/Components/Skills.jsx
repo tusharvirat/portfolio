@@ -2,13 +2,14 @@ import Cards from "./Cards";
 
 const Skills = () => {
   return (
-    <div className="flex flex-row ">
+    <div className="flex flex-row w-screen h-screen scroll-mt-20" id="skills">
       <div className=" flex flex-col justify-center ">
         <h1 className="font-bold text-5xl -rotate-90 text-[#9929EA] ">SKILLS</h1>
       </div>
-        <div className="w-[2px] bg-gray-600 h-auto"></div>
+        
       <div className="flex flex-col items-center mt-30 ">
         <div className="flex space-x-5">
+        <div className="w-[2px] h-auto bg-gray-600 "></div>
           <Cards
             img="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
             alt="HTML"
@@ -31,6 +32,7 @@ const Skills = () => {
           />
         </div>
         <div className="flex space-x-5">
+        <div className="w-[2px] h-auto bg-gray-600 "></div>
           <Cards
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
             alt="MongoDB"

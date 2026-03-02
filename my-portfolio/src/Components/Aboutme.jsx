@@ -1,9 +1,7 @@
-import React from "react";
 
 const Aboutme = () => {
-  console.log('Aboutme component rendered');
   return (
-    <div className="bg-black flex flex-col gap-20 px-4 sm:px-8">
+    <div className="bg-black flex flex-col gap-20 px-4 sm:px-8 w-screen h-screen scroll-mt-20" id="about">
       <h1 className="text-[#676767] font-extrabold text-3xl sm:text-5xl md:text-9xl text-center">
         ABOUT ME
       </h1>
@@ -21,9 +19,12 @@ const Aboutme = () => {
           PROJECTS DEPLOYED: 02
         </h1>
       </div>
-      <span className="flex justify-center">
-        <button className="text-[#676767] font-bold bg-purple-600 py-2 px-4 sm:py-4 sm:px-6 text-sm sm:text-l rounded-4xl">
-          CONTACT ME
+      <span className="flex justify-center justify-evenly">
+        <button className="text-[#000000] font-bold bg-purple-600 py-2 px-4 sm:py-4 sm:px-6 text-sm sm:text-l rounded-4xl h-15 w-40">
+          <a href="#contact">CON TACT ME</a>
+        </button>
+        <button className="text-[#000000] font-bold bg-purple-600 py-2 px-4 sm:py-4 sm:px-6 text-sm sm:text-l rounded-4xl h-15 w-40">
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">RESUME</a>
         </button>
       </span>
     </div>
